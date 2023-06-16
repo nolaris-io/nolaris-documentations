@@ -14,7 +14,7 @@ const config = {
   url: 'https://docs.nolaris.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/nolaris-documentations/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -87,7 +87,7 @@ const config = {
             items: [
               {
                 label: 'Documents',
-                to: '/docs/get-started',
+                to: '/docs/Get Started',
               },
             ],
           },
