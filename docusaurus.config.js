@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Nolaris Docs',
-  tagline: 'Official Website: <a href="https://nolaris.io" target="_blank">https://nolaris.io</a>',
+  title: 'Nolaris',
+  tagline: 'Nolaris documentations',
   favicon: 'img/logo.png',
 
   // Set the production url of your site here
@@ -58,7 +58,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Nolaris Docs',
+        title: 'Nolaris',
         logo: {
           alt: 'Nolaris',
           src: 'img/logo.png',
@@ -70,13 +70,22 @@ const config = {
             position: 'left',
             label: 'Docs',
           },
-          // {to: '/blog', label: 'Blog', position: 'left'},
-          {href: 'https://nolaris.io', label: 'nolaris.io', position: 'right'},
           {
-            href: 'https://github.com/nolaris-io/nolaris',
-            label: 'GitHub',
+            type: 'doc',
+            docId: 'downloads',
+            position: 'left',
+            label: 'Downloads',
+          },
+          {
+            href: 'https://nolaris.io',
+            label: 'nolaris.io',
             position: 'right',
           },
+          // {
+          //   href: 'https://github.com/nolaris-io/nolaris',
+          //   label: 'GitHub',
+          //   position: 'right',
+          // },
         ],
       },
       footer: {
@@ -87,7 +96,7 @@ const config = {
             items: [
               {
                 label: 'Documents',
-                to: '/docs/Get Started',
+                to: '/docs/get-started',
               },
             ],
           },
@@ -104,15 +113,15 @@ const config = {
               },
             ],
           },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'GitHub',
-                href: 'https://github.com/nolaris-io/nolaris',
-              },
-            ],
-          },
+          // {
+          //   title: 'More',
+          //   items: [
+          //     {
+          //       label: 'GitHub',
+          //       href: 'https://github.com/nolaris-io/nolaris',
+          //     },
+          //   ],
+          // },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
       },

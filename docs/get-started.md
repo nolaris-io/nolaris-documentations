@@ -1,4 +1,4 @@
-## Get Started
+# Get Started
 
 Start your Nolaris node by running the following command on a device that is connected to the Internet through Starlink:
 
